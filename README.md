@@ -30,11 +30,11 @@ env\Scripts\activate      # For Windows
 pip install -r requirements.txt
 ```
 
-#### 4.Run the Jupyter Notebook 
+##### 4.Run the Jupyter Notebook 
 ```
 jupyter notebook notebooks/sentiment_analysis.ipynb
 ```
-#### 5.Run the Streamlit app
+##### 5.Run the Streamlit app
 ```
 streamlit run streamlit/sentiment_analysis.py
 ```
