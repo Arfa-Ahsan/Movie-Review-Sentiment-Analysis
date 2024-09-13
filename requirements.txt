@@ -1,1 +1,10 @@
-
+numpy
+pandas
+seaborn
+matplotlib
+plotly
+nltk
+wordcloud
+textblob
+scikit-learn
+pickle
