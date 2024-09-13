@@ -1,8 +1,8 @@
 # Movie-Review-Sentiment-Analysis
 
 ### Overview
--The goal of this project is to develop a machine learning model that uses natural language processing (NLP) techniques to automatically categorize movie reviews into two sentiment categories: positive and negative. 
--This project leverages various machine learning algorithms to classify sentiment, such as Naive Bayes, Logistic Regression and Random Forest, and provides a user-friendly interface through a Streamlit web app.
+- The goal of this project is to develop a machine learning model that uses natural language processing (NLP) techniques to automatically categorize movie reviews into two sentiment categories: positive and negative. 
+- This project leverages various machine learning algorithms to classify sentiment, such as Naive Bayes, Logistic Regression and Random Forest, and provides a user-friendly interface through a Streamlit web app.
 
 ### Features
 - Movie Review Sentiment Classification: Automatically categorize movie reviews into positive or negative sentiment using NLP techniques.
