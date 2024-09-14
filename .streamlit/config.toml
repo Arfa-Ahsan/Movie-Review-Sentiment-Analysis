@@ -1,3 +1,7 @@
 [theme]
 base="light"
 primaryColor="#dd70fd"
+
+[top_bar]
+hide_github_button = true
+hide_fork_button = true
