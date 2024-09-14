@@ -36,5 +36,5 @@ jupyter notebook notebooks/sentiment_analysis.ipynb
 ```
 ##### 5.Run the Streamlit app
 ```
-streamlit run streamlit/sentiment_analysis.py
+streamlit run sentiment_analysis.py
 ```
