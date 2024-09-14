@@ -10,13 +10,6 @@ nltk.download('stopwords')
 from nltk.corpus import stopwords  
 
 
-hide = """
-    <style>
-        #MainMenu {visibility: hidden;}
-        footer {visibility: hidden;}
-    </style>
-"""
-st.markdown(hide, unsafe_allow_html=True)
 # Load the saved models 
 model_paths = {
     'Logistic Regression': 'Models/logistic_regression_model.pkl',
