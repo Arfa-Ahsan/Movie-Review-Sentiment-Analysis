@@ -15,7 +15,7 @@ st.markdown(
     <style>
     .css-1jc7ptx, .e1ewe7hr3, .viewerBadge_container__1QSob,
     .styles_viewerBadge_1yB5, .viewerBadge_link__1S137,
-    .viewerBadge_text__1JaDK, .github-icon-class {  /* Add the class for GitHub icon */
+    .viewerBadge_text__1JaDK, .css-qrbaxs { /* Add the GitHub icon's CSS class */
         display: none;
     }
     </style>
