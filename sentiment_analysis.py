@@ -130,7 +130,8 @@ if st.button('Predict Sentiment') and text:
             plt.figure(figsize=(3, 2))
             plt.bar(sentiment_labels, sentiment_values, color=['#d031e8','#f5c7fc'])
             plt.ylabel('Probability')
-            plt.title(f'Sentiment Probability Distribution')
+            plt.title(f'Sentiment Probability Distribution',fontsize=10)
+            plt.xticks(rotation=45, fontsize=10)
             st.pyplot(plt)
 
     else:
