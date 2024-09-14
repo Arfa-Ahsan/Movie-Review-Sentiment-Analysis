@@ -6,6 +6,7 @@ import pickle
 from collections import Counter
 from sklearn.feature_extraction.text import TfidfVectorizer
 from nltk.corpus import stopwords  
+nltk.download('stopwords')
 
 
 # Load the saved models 
