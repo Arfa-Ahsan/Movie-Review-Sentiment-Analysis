@@ -127,7 +127,7 @@ if st.button('Predict Sentiment') and text:
             sentiment_values = [probability[0], probability[1]]
             
             # Bar chart for sentiment distribution
-            plt.figure(figsize=(5, 4))
+            plt.figure(figsize=(3, 3))
             plt.bar(sentiment_labels, sentiment_values, color=['#d031e8','#f5c7fc'])
             plt.ylabel('Probability')
             plt.title(f'Sentiment Probability Distribution')
