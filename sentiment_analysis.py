@@ -123,7 +123,7 @@ if st.button('Predict Sentiment') and text:
                         "</div>", unsafe_allow_html=True)
 
             # Visualization of sentiment probabilities
-            sentiment_labels = ['Negative Sentiment', 'Positive Sentiment']
+            sentiment_labels =  ['Negative', 'Positive']
             sentiment_values = [probability[0], probability[1]]
             
             # Bar chart for sentiment distribution
@@ -131,7 +131,6 @@ if st.button('Predict Sentiment') and text:
             plt.bar(sentiment_labels, sentiment_values, color=['#d031e8','#f5c7fc'])
             plt.ylabel('Probability')
             plt.title(f'Sentiment Probability Distribution',fontsize=10)
-            plt.xticks(rotation=45, fontsize=10)
             st.pyplot(plt)
 
     else:
