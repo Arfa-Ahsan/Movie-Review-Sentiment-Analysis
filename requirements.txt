@@ -1,3 +1,4 @@
+streamlit
 numpy
 pandas
 seaborn
@@ -7,5 +8,3 @@ nltk
 wordcloud
 textblob
 scikit-learn
-pickle
-streamlit
