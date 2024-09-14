@@ -5,8 +5,10 @@ import matplotlib.pyplot as plt
 import pickle
 from collections import Counter
 from sklearn.feature_extraction.text import TfidfVectorizer
-from nltk.corpus import stopwords  
+import nltk
 nltk.download('stopwords')
+from nltk.corpus import stopwords  
+
 
 
 # Load the saved models 
