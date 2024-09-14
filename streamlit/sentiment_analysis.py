@@ -10,12 +10,12 @@ from nltk.corpus import stopwords
 
 # Load the saved models 
 model_paths = {
-    'Logistic Regression': 'C:/Users/Arfa Ahsan/logistic_regression_model.pkl',
-    'Naive Bayes': 'c:/Users/Arfa Ahsan/naive_bayes_model.pkl',
-    'Random Forest': 'c:/Users/Arfa Ahsan/random_forest_model.pkl',
+    'Logistic Regression': 'Models/logistic_regression_model.pkl',
+    'Naive Bayes':  'Models/naive_bayes_model.pkl',
+    #'Random Forest': 'Models/tfidf_vectorizer.pkl',
 }
 
-vectorizer_path = 'c:/Users/Arfa Ahsan/tfidf_vectorizer.pkl'
+vectorizer_path = 'Models/tfidf_vectorizer.pkl'
 
 # Load the vectorizer
 with open(vectorizer_path, 'rb') as vectorizer_file:
