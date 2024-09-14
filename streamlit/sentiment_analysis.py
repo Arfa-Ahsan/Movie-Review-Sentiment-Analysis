@@ -12,7 +12,7 @@ from nltk.corpus import stopwords
 model_paths = {
     'Logistic Regression': 'Models/logistic_regression_model.pkl',
     'Naive Bayes':  'Models/naive_bayes_model.pkl',
-    #'Random Forest': 'Models/tfidf_vectorizer.pkl',
+    'Random Forest': 'Models/random_forest_model.pkl',
 }
 
 vectorizer_path = 'Models/tfidf_vectorizer.pkl'
@@ -43,7 +43,7 @@ st.markdown(
     </div>
     """, unsafe_allow_html=True
 )
-st.image('c:/Users/Arfa Ahsan/Downloads/sentiment 6.png')
+st.image('Images/sentiment pic.png')
 
 st.info('Enter the information below:')
 
